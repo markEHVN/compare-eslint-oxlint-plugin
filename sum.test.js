@@ -12,3 +12,11 @@ describe("first", () => {
     }
   });
 });
+
+it("second", () => {
+  if (Math.random() > 0.5) {
+    expect(1 + 1).toBe(2);
+  } else {
+    expect(1 + 1).toBe(2);
+  }
+});
