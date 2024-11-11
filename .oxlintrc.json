@@ -3,13 +3,13 @@
   "categories": {
     "correctness": "allow"
   },
+  "plugins": ["import"],
   "env": {
     "node": true
   },
   "globals": {},
   "settings": {},
   "rules": {
-    "no-undef": "error",
-    "no-cond-assign": ["error", "always"]
+    "import/export": "error"
   }
 }

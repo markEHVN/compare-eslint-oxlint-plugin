@@ -1,13 +1,13 @@
 module.exports = {
-  extends: "eslint:recommended",
+  parser: "@typescript-eslint/parser",
   parserOptions: {
     ecmaVersion: 6, // default is 5
   },
+  plugins: ["import"],
   env: {
     node: true,
   },
   rules: {
-    "no-undef": ["error"],
-    "no-cond-assign": ["error", "always"],
+    "import/export": "error",
   },
 };
