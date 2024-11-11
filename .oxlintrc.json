@@ -3,14 +3,13 @@
   "categories": {
     "correctness": "allow"
   },
-  "plugins": ["jest"],
   "env": {
-    "jest": true
+    "node": true
   },
   "globals": {},
   "settings": {},
   "rules": {
     "no-undef": "error",
-    "jest/expect-expect": ["error"]
+    "no-cond-assign": ["error", "always"]
   }
 }
