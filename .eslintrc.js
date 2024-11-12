@@ -1,11 +1,18 @@
 module.exports = {
   extends: "eslint:recommended",
-  plugins: [],
   parserOptions: {
     ecmaVersion: 6, // default is 5
+    sourceType: "module", // default is "script"
+
+    ecmaFeatures: {
+      jsx: true,
+    },
   },
+  plugins: ["jsx-a11y"],
   env: {
     node: true,
   },
-  rules: {},
+  rules: {
+    "jsx-a11y/img-redundant-alt": "error",
+  },
 };

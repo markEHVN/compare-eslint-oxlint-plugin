@@ -1,11 +1,14 @@
 {
   "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "categories": {},
-  "plugins": [],
+  "categories": {
+    "correctness": "allow"
+  },
+  "plugins": ["jsx-a11y"],
   "env": {},
   "globals": {},
   "settings": {},
   "rules": {
-    "no-undef": "error"
+    "no-undef": "error",
+    "jsx-a11y/img-redundant-alt": "error"
   }
 }
