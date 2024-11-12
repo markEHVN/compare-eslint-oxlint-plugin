@@ -13,6 +13,6 @@ module.exports = {
     node: true,
   },
   rules: {
-    "jsx-a11y/img-redundant-alt": "error",
+    "jsx-a11y/iframe-has-title": "error",
   },
 };
