@@ -1,16 +1,11 @@
 {
   "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "categories": {
-    "correctness": "allow"
-  },
-  "plugins": ["jest"],
-  "env": {
-    "jest": true
-  },
+  "categories": {},
+  "plugins": [],
+  "env": {},
   "globals": {},
   "settings": {},
   "rules": {
-    "no-undef": "error",
-    "jest/expect-expect": ["error"]
+    "no-undef": "error"
   }
 }
